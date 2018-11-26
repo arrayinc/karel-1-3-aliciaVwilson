@@ -8,7 +8,7 @@
 import "turns";
 
 function FillPotholes(){
-	repeat(5){
+	while(frontIsClear()){
 		fillPothole();
 	}
 }
